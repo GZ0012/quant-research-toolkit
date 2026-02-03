@@ -1,0 +1,23 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# --- environment and IDE ---
+.venv/
+env/
+venv/
+.env
+.vscode/
+.idea/
+.DS_Store
+
+# ignore all the csv 
+data/*.csv
+# save the sample csv
+!data/sample.csv
+
+# --- result ---
+results/
+*.log
